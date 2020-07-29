@@ -9,4 +9,5 @@ def moving_avg_numpy(vector,win_size):
     return final
 
 
-print(moving_avg_numpy([1,2],2))
+print(moving_avg_numpy([3, 5, 7, 2, 8, 10, 11, 65, 72, 81, 99, 100, 150],3))
+print(moving_avg_numpy([10,20,30,40,50,60,70,80,90,100],4))
